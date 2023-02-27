@@ -4,5 +4,12 @@
     <string name="salario">Ingrese su salario base </string>
     <string name="nombre">Ingrese su nombre </string>
     <string name="resultado">Resultado</string>
-
+    
+    <string name="num1_hint">Ingrese el primer número</string>
+    <string name="num2_hint">Ingrese el segundo número</string>
+    <string name="add_text">Suma</string>
+    <string name="subtract_text">Resta</string>
+    <string name="multiply_text">Multiplicación</string>
+    <string name="divide_text">División</string>
+    <string name="calculate_button_text">Calcular</string>
 </resources>
