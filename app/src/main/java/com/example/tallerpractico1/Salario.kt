@@ -21,5 +21,14 @@ class Salario : AppCompatActivity() {
         salarioEditText = findViewById(R.id.etsalario)
         calcularButton = findViewById(R.id.btncalcular)
         resultadoTextView = findViewById(R.id.tvresultado)
+
+        calcularButton.setOnClickListener{
+            val nombre = nombreEditText.text.toString()
+            val salarioBase = salarioEditText.text.toString().toDouble()
+            val salarioNeto = controlador.calcularSalario(nombre,salarioBase)
+            val resultado = "El pago total de  $nombre es $salarioNeto"
+            resultadoTextView.text =resultado
+
+        }
     }
 }
